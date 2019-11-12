@@ -2,10 +2,9 @@
 ob_start();
 error_reporting(0);
 
-//DEFINE THESE
-$client_id     = "642735449114279936"; //CLIENT ID HERE
-$client_secret = "TlW_yvvGT01coUIoHYChSSsy5YppZ8oW"; //CLIENT SECRET HERE
-$redirect      = "https://negerbolle.000webhostapp.com/"; //REDIRECT URL SET IN DISCORDAPP.COM/DEVELOPERS
+$client_id     = ""; //CLIENT ID HERE
+$client_secret = ""; //CLIENT SECRET HERE
+$redirect      = ""; //PATH TO THIS FILE (SAME AS THE ONE YOU SET IN DISCORDAPP.COM/DEVELOPERS)
 
 function get_ip_address()
 {
